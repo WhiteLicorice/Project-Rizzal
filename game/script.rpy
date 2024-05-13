@@ -3,7 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define s = Character("Rizzal")
+
+#Declare music
 
 
 # The game starts here.
@@ -20,14 +22,30 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    #show eileen happy
 
     # These display lines of dialogue.
+    
+    s "You've created a new Ren'Py game."
 
-    e "You've created a new Ren'Py game."
+    s "What mad dog bit you?"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    s "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat libero, ac feugiat diam pharetra tincidunt.
+    Nullam tellus sem, semper sit amet tincidunt ac, dapibus at mauris."
 
+    menu:
+        "Option 1":
+            "You chose option 1."
+        "Option 2":
+            "You chose option 2."
+        "Option 3":
+            "You chose option 3."
+        "Option 4 is a bit longer, a tiny tiny bit longer so the button is bigger but just a bit":
+            "You chose option 4 which is a bit longer I admit."
+
+
+    s "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat libero, ac feugiat diam pharetra tincidunt. Nullam tellus sem, semper sit amet tincidunt ac, dapibus at mauris. "
+    s "Donec sit amet placerat risus. Nulla facilisi. Sed maximus nisi et nulla facilisis luctus. Proin velit purus, volutpat id lectus sed, scelerisque fringilla velit."
     # This ends the game.
 
     return

@@ -1,5 +1,6 @@
 log.txt
 .vscode
+*.keystore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
