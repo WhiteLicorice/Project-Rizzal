@@ -6,7 +6,7 @@ A final creative presentation for Philippine Institutions 100, made in the RenPy
 
 ## Writers
 
-Jillian Lei Belaro
+Jillian Lei Belaro <br>
 Gianna Pamplona
 
 ## Programmers
