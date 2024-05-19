@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/script_act1.rpy", line 120: scene statement expects a non-empty block.
+    scene modern dapitan hut3:
+                              ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Sun May 19 22:08:36 2024
