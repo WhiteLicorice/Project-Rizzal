@@ -256,6 +256,7 @@ screen quick_menu():
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
+            textbutton _("Load") action ShowMenu('load')
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
             textbutton _("Options") action ShowMenu('q_preferences')
@@ -381,6 +382,7 @@ screen main_menu():
 ## transcluded (placed) inside it.
 
 screen game_menu(title, scroll=None, yinitial=0.0):
+    
 
     style_prefix "game_menu"
 
@@ -553,6 +555,7 @@ style about_label_text:
 ## www.renpy.org/doc/html/screen_special.html#load
 
 screen save():
+    use stop_blips  #   Stop dialogue blips on opening "save" screen
 
     tag my_menu
     add "gui/quick_menu.png"
@@ -565,6 +568,7 @@ style sty_label_text:
     ypos 50
     size 90
 screen load():
+    use stop_blips  #   Stop dialogue blips on opening "load" screen
 
     tag my_menu
     add "gui/menu_smalldisc.png" xpos 385 ypos 219
@@ -870,6 +874,7 @@ style slider_vbox
 ## https://www.renpy.org/doc/html/history.html
 
 screen history():
+    use stop_blips  #   Stop dialogue blips on opening "history" menu
 
     tag menu
     add "gui/quick_menu.png"
@@ -1067,7 +1072,7 @@ style help_label_text:
 ## https://www.renpy.org/doc/html/screen_special.html#confirm
 
 screen confirm(message, yes_action, no_action):
-
+    use stop_blips  #   Stop dialogue blips on "confirm" screens
     ## Ensure other screens do not get input while this screen is displayed.
     modal True
 

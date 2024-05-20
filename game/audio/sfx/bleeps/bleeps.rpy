@@ -1,4 +1,6 @@
 init python:
+
+    
     
     ############################ MID TONES ####################################
     
@@ -6,7 +8,6 @@ init python:
         if event == "show":
             renpy.music.play("audio/sfx/bleeps/bleep001.ogg", channel="sound", loop=True)
         elif event == "slow_done" or event == "end":
-            renpy.music.stop(channel="sound")
             renpy.music.stop(channel="sound", fadeout=1)
             
             

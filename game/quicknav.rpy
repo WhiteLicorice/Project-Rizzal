@@ -1,4 +1,5 @@
 screen q_preferences():
+    use stop_blips  #   Stop dialogue bleeps upon opening "q_preferences"
     add "gui/quick_menu.png"
     label "Options"
     style_prefix "sty2"
