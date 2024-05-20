@@ -183,7 +183,7 @@ label script_act1:
 
     scene black with dissolve
 
-    "*Before proceeding to the next act, choose which character you would like to follow.*"
+    "Before proceeding to the next act, choose which character you would like to follow."
 
     menu:
 
