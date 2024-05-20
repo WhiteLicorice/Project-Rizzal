@@ -1,32 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/script_act1.rpy", line 47, in script
-    show jim normal at cene
-  File "game/scripts/script_act1.rpy", line 47, in <module>
-    show jim normal at cene
-NameError: name 'cene' is not defined
+  File "game/script.rpy", line 10, in script call
+    call script_act2_ren
+  File "game/scripts/script_act2_ren.rpy", line 87, in script
+    MAN """
+Exception: Sayer 'MAN' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/script_act1.rpy", line 47, in script
-    show jim normal at cene
-  File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 1113, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 1072, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 1072, in <listcomp>
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/scripts/script_act1.rpy", line 47, in <module>
-    show jim normal at cene
-NameError: name 'cene' is not defined
+  File "game/script.rpy", line 10, in script call
+    call script_act2_ren
+  File "game/scripts/script_act2_ren.rpy", line 87, in script
+    MAN """
+  File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'MAN' is not defined.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
-Project Rizzal 0.1
-Sun May 19 21:03:31 2024
+Project Rizzal 0.2
+Mon May 20 10:26:27 2024
