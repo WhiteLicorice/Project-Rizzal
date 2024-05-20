@@ -3,26 +3,36 @@
 While running game code:
   File "game/script.rpy", line 10, in script call
     call script_act2_ren
-  File "game/scripts/script_act2_ren.rpy", line 87, in script
-    MAN """
-Exception: Sayer 'MAN' is not defined.
+  File "game/scripts/script_act2_ren.rpy", line 302, in script
+    "Ren smiles as he surveys the towering brick wall of the dam.
+Exception: Sayer '"Ren smiles as he surveys the towering brick wall of the dam.
+    
+    His hands, now roughened and stained with clay, speak of his dedication to the task at hand.
+    
+    And deep within him, Ren knows that this is where he belongs — building something meaningful.
+    "' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 10, in script call
     call script_act2_ren
-  File "game/scripts/script_act2_ren.rpy", line 87, in script
-    MAN """
+  File "game/scripts/script_act2_ren.rpy", line 302, in script
+    "Ren smiles as he surveys the towering brick wall of the dam.
   File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
     Say.execute(self)
   File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
     who = eval_who(self.who, self.who_fast)
   File "C:\Lab\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'MAN' is not defined.
+Exception: Sayer '"Ren smiles as he surveys the towering brick wall of the dam.
+    
+    His hands, now roughened and stained with clay, speak of his dedication to the task at hand.
+    
+    And deep within him, Ren knows that this is where he belongs — building something meaningful.
+    "' is not defined.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Project Rizzal 0.2
-Mon May 20 10:26:27 2024
+Mon May 20 11:39:03 2024

@@ -13,6 +13,10 @@ label script_act2_ren:
     show ren mysterious at center_sprite_named
     "Ren steps back on his right foot, preparing to run from whatever he sees."
 
+    scene modern dapitan pathway1:
+        matrixcolor SaturationMatrix(0)
+    with dissolve
+
     show ren disagree at center_sprite_named
     REN """
     This is not the same at all.
@@ -21,9 +25,11 @@ label script_act2_ren:
     
     The place is filled with people wearing native dresses, and the men wear long pants even though it is so hot.
     
-    Is it a prank made by my stupid classmates?
+    Is it a prank by my stupid classmates?
     """
     hide ren
+
+    show rizal smile at center_rizal_greyscale
 
     """
     A sudden voice speaks up, and when Ren looks at where it is coming from, he is shocked at what he sees.
@@ -32,10 +38,9 @@ label script_act2_ren:
     
     Of course, he knows because, in his elementary days, Ren was tasked with printing out Rizal's face and pasting it on the classroom walls. 
     
-    And, of course, Rizal’s face is forver imprinted on every peso coin he uses.
+    And, of course, Rizal’s face is forever imprinted on every peso coin he uses.
     """
 
-    show rizal smile at center_rizal_greyscale
     RIZAL "Are you the new student here? We will start making bricks today, so prepare yourself and change your attire, too, young boy."
     hide rizal
 
@@ -48,6 +53,10 @@ label script_act2_ren:
     In his disbelief, he runs and tries to seek help."""
     hide ren
     
+    scene modern dapitan hut4:
+        matrixcolor SaturationMatrix(0)
+    with dissolve
+
     """
     Instead of help, he sees a village with houses made of bamboo and nipa grass.
      
@@ -58,6 +67,7 @@ label script_act2_ren:
     
     show rizal smile at center_rizal_greyscale
     """Rizal appears behind a clueless Ren, gazing at the village as well."""
+
     RIZAL """
     It may not be as grand, but this is a good start, eh?
     
@@ -78,7 +88,9 @@ label script_act2_ren:
     "He closes his eyes and shouts."
     hide ren
 
-    scene talisay_dam with dissolve
+    scene modern dapitan waterworks:
+        matrixcolor SaturationMatrix(0)
+    with dissolve
 
     """
     As they arrive at Talisay, Rizal and Ren are greeted warmly by the people at the site.
@@ -222,7 +234,9 @@ label script_act2_ren:
     hide ren
     REN "Aaaaaaaaaaah!" 
     
-    scene linao_fountain with dissolve
+    scene modern dapitan waterworks2:
+        matrixcolor SaturationMatrix(0) 
+    with dissolve
 
     """
     Leaving the construction site behind, they arrive at Calle Marquez de Pena Plata, just a stone’s throw from the Talisay village.
@@ -261,4 +275,90 @@ label script_act2_ren:
 
     RIZAL "Here, take a sip. You look thirsty, my young friend."
 
-    #   TODO: Append the rest of the script
+    scene black with dissolve
+
+    scene modern dapitan hut3:
+        matrixcolor SaturationMatrix(0)
+    with dissolve
+
+    show ren smile2 at center_sprite_named
+    REN """
+    Back in Talisay Dam, having marveled at the wonders of the place, I'm now convinced that I stand in the presence of a true hero, Dr. Jose Rizal.
+    
+    With a newfound sense of purpose, I join the construction efforts at the dam, eager to both lend a hand to the workers and engage in meaningful conversation with Rizal.
+    """
+    hide ren
+
+    show rizal smile at center_rizal_greyscale
+    RIZAL """
+    With just a few final touches, our Talisay dam will be complete.
+    
+    I am grateful for the assistance of my students and the people of Talisay, who helped bring this project to fruition for our community.
+    """
+    hide rizal
+
+    show ren smile2 at center_sprite_named
+    """
+    Ren smiles as he surveys the towering brick wall of the dam.
+    
+    His hands, now roughened and stained with clay, speak of his dedication to the task at hand.
+    
+    And deep within him, Ren knows that this is where he belongs — building something meaningful.
+    """
+    hide ren
+
+    show ren normal at center_sprite_named
+    REN "What if someday, in the future, our dam falls into ruins?"
+    hide ren
+
+    show rizal smile at center_rizal_greyscale
+    RIZAL """
+    Then, I guess we should remind ourselves that what matters is we continue to build for the betterment of others.
+
+    That spirit will endure, Ren.
+    """
+    hide rizal
+
+    show ren normal at center_sprite_named
+    REN"Indeed. Well then, I’ll go back to my work."
+    hide ren
+
+    show rizal smile at center_rizal_greyscale
+    RIZAL "Oh..."
+    hide rizal
+
+    scene modern dapitan waterworks:
+        matrixcolor SaturationMatrix(0)
+    with dissolve
+
+    """
+    As the last layer of the bricks are laid atop the dam and the clay pipes are secured, the reservoir fills with flowing water.
+    
+    Ren has fulfilled his mission: to embrace his passion for building, instilled in him by Rizal, and to carry the wisdom gained deep within his heart.
+    """
+
+    show ren smile2 at center_sprite_named
+    REN "Our work here is done. Soon, the farmers and the households will reap the rewards of our community’s labor."
+    hide ren
+
+    show rizal smile at center_rizal_greyscale
+    RIZAL """
+    Here, have some kakanin given by the elders of Talisay.
+
+    And remember, the calluses on your hands will soon fade, replaced by the sense of fulfillment.
+    """
+    hide rizal
+
+    show ren normal at center_sprite_named
+    REN "My hands are here for the people, for our community. That’s the lesson you taught me, eh?"
+    hide ren
+
+    show rizal smile at center_rizal_greyscale
+    RIZAL "Indeed, Ren. You’ve been an attentive student."
+    hide rizal
+
+    scene black with dissolve
+
+    "Ren's Route Complete!"
+
+    return
