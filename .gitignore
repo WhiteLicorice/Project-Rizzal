@@ -1,4 +1,6 @@
 log.txt
+errors.txt
+traceback.txt
 .vscode
 *.keystore
 

@@ -30,7 +30,7 @@ label script_act1:
     hide ren
 
     show lian openeyes normal at center_sprite_named
-    "Lian sighs."
+    "Lian sighs at Ren's words."
     LIAN "I wish we could just go back home. I’m not learning anything from this tour."
     hide lian
 
@@ -58,7 +58,7 @@ label script_act1:
     JIM "Though it must have been nice because they didn’t have to learn about Rizal himself."
     hide jim
 
-    "Everyone laughs."
+    "Everyone laughs at the joke."
 
     show schoolkid walking at center_sprite_silhoutte_enlarge
     SCHOOL_KID "It’s kinda pointless. What would Rizal even teach us?"
