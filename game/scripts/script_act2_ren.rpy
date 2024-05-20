@@ -1,4 +1,5 @@
 label script_act2_ren:
+    play music "audio/bgm/forest.ogg" loop
 
     scene modern dapitan hut1:
         matrixcolor SaturationMatrix(0)
@@ -23,9 +24,9 @@ label script_act2_ren:
 
     Where am I? 
     
-    The place is filled with people wearing native dresses, and the men wear long pants even though it is so hot.
+    This place is filled with people wearing medieval clothes, and the men wear long pants even though it is so hot.
     
-    Is it a prank by my stupid classmates?
+    Is this a prank by my stupid classmates?
     """
     hide ren
 
@@ -357,7 +358,11 @@ label script_act2_ren:
     RIZAL "Indeed, Ren. You’ve been an attentive student."
     hide rizal
 
+    stop music
+
     scene black with dissolve
+
+    play music "audio/bgm/rest.ogg" noloop
 
     "Ren's Route Complete!"
 

@@ -1,4 +1,6 @@
 label script_act1:
+    play music "audio/bgm/town.ogg" loop
+
     scene modern dapitan museum entrance with dissolve
 
     "Rizal Park and Shrine, Dapitan."
@@ -71,7 +73,7 @@ label script_act1:
     """
     The group of friends are startled at the old man who appears suddenly out of nowhere.
     
-    Hunchead near the open door, he's carrying a cane.
+    Hunched near the open door, he's carrying a cane.
      
     He's wearing a white camisa de chino with the sleeves rolled up to his elbows and black slacks.
     """
@@ -119,7 +121,9 @@ label script_act1:
     JIM "Come on! Let’s just go and get some food outside."
     hide jim
 
-    "As the three friends climb down the stairs, they weirdly feel nauseous."
+    play music "audio/bgm/critical.ogg" loop
+
+    "As the three friends climb down the stairs, they feel weirdly nauseous."
     
     "The ground shakes uncontrollably."
 
@@ -147,6 +151,8 @@ label script_act1:
     with hpunch
     
     "They hit their heads on the ground and collapse."
+
+    play music "audio/bgm/rest.ogg" noloop
 
     scene black
     with Pixellate(5, 5)
@@ -183,7 +189,9 @@ label script_act1:
 
     scene black with dissolve
 
-    "Before proceeding to the next act, choose which character you would like to follow."
+    play music "audio/bgm/trust.ogg" loop
+
+    "Before proceeding with the rest of the story, choose which character you would like to follow."
 
     menu:
 
