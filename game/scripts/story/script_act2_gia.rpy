@@ -41,7 +41,7 @@ label script_act2_gia:
     RIZAL "Ah, mi estudiante. What is the matter?"
     hide rizal
 
-    show gia openeyes normal at center_sprite_named
+    show gia openeyes ahaha at center_sprite_named
     GIA "Maestro! I didn’t notice your presence."
     hide gia
 
@@ -61,7 +61,7 @@ label script_act2_gia:
 
     """
 
-    show gia openeyes normal at center_sprite_named
+    show gia openeyes sad at center_sprite_named
     GIA "Maestro, can I ask you a question?"
     hide gia
 
@@ -85,7 +85,7 @@ label script_act2_gia:
     """
     hide rizal
 
-    show gia openeyes normal at center_sprite_named
+    show gia closedeyes ugh2 at center_sprite_named
     GIA """
     I like to write as well, Maestro!
 
@@ -186,5 +186,9 @@ label script_act2_gia:
     I don’t know what lies in the future but I’d like to share my talents like you do.
     """
     hide gia
+
+    scene black with dissolve
+
+    play music "audio/bgm/rest.ogg" noloop
 
     return

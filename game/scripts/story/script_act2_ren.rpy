@@ -44,6 +44,7 @@ label script_act2_ren:
     show rizal smile at center_rizal_greyscale
 
     """
+
     A sudden voice speaks up, and when Ren looks at where it is coming from, he is shocked at what he sees.
     
     The guy looks like Dr. Jose Rizal.
@@ -51,21 +52,25 @@ label script_act2_ren:
     Of course, he knows because, in his elementary days, Ren was tasked with printing out Rizal's face and pasting it on the classroom walls. 
     
     And, of course, Rizal’s face is forever imprinted on every peso coin he uses.
+
     """
 
     RIZAL """
     Are you a new student here?
     
-    We will start making bricks today, so prepare yourself and change your attire, too, young boy."""
+    We will start making bricks today, so prepare yourself and change your attire, too, young boy.
+    """
     hide rizal
 
     show ren normal at center_sprite_named
     REN "Uhm..."
 
     show ren disagree2
-    """Ren looks at his shirt, which has been replaced with a thin cloth that is not enough to cover his whole body.
+    """
+    Ren looks at his shirt, which has been replaced with a thin cloth that is not enough to cover his whole body.
     
-    In his disbelief, he runs and tries to seek help."""
+    In his disbelief, he runs and tries to seek help.
+    """
     hide ren
     
     scene modern dapitan hut4:
@@ -127,7 +132,8 @@ label script_act2_ren:
     MUSCLE_MAN """
     Ahay, when using this machine, I always follow what Dr. Rizal taught me, which always works.
     
-    See? We can make thousands of bricks daily that are being used to create waterworks here in Talisay."""
+    See? We can make thousands of bricks daily that are being used to create waterworks here in Talisay.
+    """
     hide muscular
 
     """
@@ -206,7 +212,9 @@ label script_act2_ren:
     hide rizal
 
     """
-    Growing up, Ren had always believed that creation was confined only to the realm of his computer games, where he could easily construct virtual spaces in games like Minecraft.
+    Growing up, Ren had always believed that creation was confined only to the realm of his computer games...
+    
+    Where he could easily construct virtual spaces in games like Minecraft.
     
     However, under Rizal’s advice, he realizes that the waterworks they’re building will serve the entire community.
     
@@ -383,7 +391,5 @@ label script_act2_ren:
     scene black with dissolve
 
     play music "audio/bgm/rest.ogg" noloop
-
-    "Ren's Route Complete!"
 
     return

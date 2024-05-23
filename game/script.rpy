@@ -18,5 +18,7 @@ label start:
             call script_act2_lian
             call script_act2_gia
             call script_act2_ren
+            call script_act3
+            call script_credits
 
     return

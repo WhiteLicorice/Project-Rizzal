@@ -2,7 +2,7 @@ label script_act2_lian:
     play music "audio/bgm/heart.ogg" loop
 
     pause 1.0
-    
+
     scene modern dapitan hut2:
         matrixcolor SaturationMatrix(0)
     with dissolve
@@ -47,7 +47,7 @@ label script_act2_lian:
     """
     hide rizal
 
-    show lian openeyes normal at center_sprite_named
+    show lian openeyes ugh2 at center_sprite_named
     LIAN "We wanted to be your students."
     hide lian
 
@@ -89,7 +89,7 @@ label script_act2_lian:
     RIZAL """
     That’s good to know!
     
-    Do you plan on pursuing a career in the medicine field?
+    Do you plan on pursuing a career in the field of medicine?
     """
     hide rizal
 
@@ -115,7 +115,7 @@ label script_act2_lian:
     
     Most of the people here are quite poor.
     
-    There is never a loss when I help my fellow countrymen.
+    So there is never a loss when I help my fellow countrymen.
     
     Providing medicine gratis is the least I can do for everyone here.
     
@@ -138,3 +138,9 @@ label script_act2_lian:
     show rizal smile at center_rizal_greyscale
     RIZAL "I look forward to seeing that soon, mi estudiante."
     hide rizal
+
+    scene black with dissolve
+
+    play music "audio/bgm/rest.ogg" noloop
+
+    return
