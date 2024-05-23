@@ -10,4 +10,4 @@ label script_act2_jim:
 
     pause 1.0
 
-    call script_act2_ren from _call_script_act2_ren_2
+    call script_act2_ren
