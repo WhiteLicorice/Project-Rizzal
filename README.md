@@ -20,3 +20,7 @@ Rizal By Painting from Lineage, Life and Labors of José Rizal, Philippine Patri
 GUI base by Skolaztika, modified by WhiteLicorice.
 
 Sprites by Mad Scientist, Najmah Salam, LinXueLian.
+
+Music by Sara Garrard.
+
+Soundbites by dmochas.
