@@ -7,14 +7,16 @@ label start:
 
     label act2:
         if chosen_character == "ren":
-            call script_act2_ren from _call_script_act2_ren
+            call script_act2_ren
         elif chosen_character == "gia":
-            call script_act2_gia from _call_script_act2_gia
+            call script_act2_gia
         elif chosen_character == "jim":
-            call script_act2_jim from _call_script_act2_jim
+            call script_act2_jim
         elif chosen_character == "lian":
-            call script_act2_liam from _call_script_act2_liam
+            call script_act2_lian
         else:
-            pass
+            call script_act2_lian
+            call script_act2_gia
+            call script_act2_ren
 
     return

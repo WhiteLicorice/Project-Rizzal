@@ -191,7 +191,11 @@ label script_act1:
 
     play music "audio/bgm/trust.ogg" loop
 
-    "Before proceeding with the rest of the story, choose which character you would like to follow."
+    """
+    
+    If you've already played the game before, you may choose to skip to a character's act.
+    
+    """
 
     menu:
 
@@ -210,5 +214,9 @@ label script_act1:
             "Lian":
                 $ chosen_character = "lian"
                 "You chose Lian."
+
+            "Proceed as normal":
+                $ chosen_character = None
+                "You chose to proceed as usual."
 
     return

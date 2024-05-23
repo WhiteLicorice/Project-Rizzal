@@ -1,17 +1,28 @@
 label script_act2_ren:
     play music "audio/bgm/forest.ogg" loop
 
+    pause 1.0
+
     scene modern dapitan hut1:
         matrixcolor SaturationMatrix(0)
     with dissolve
 
     show ren disagree2 at center_sprite_named
-    REN "Oh, Lord, I have 20/20 vision. What is happening now, and why can’t I see anything? Where are my classmates?"
+    REN """
+    Oh, Lord, I have 20/20 vision.
+    
+    What is happening now?
+    
+    And why can’t I see anything clearly?
+    
+    Where are my classmates?
+    """
     hide ren
 
-    "As the light from the wall stops, he is too surprised to even speak."
+    "As the light stops, he is too surprised to even speak."
      
     show ren mysterious at center_sprite_named
+
     "Ren steps back on his right foot, preparing to run from whatever he sees."
 
     scene modern dapitan pathway1:
@@ -42,7 +53,10 @@ label script_act2_ren:
     And, of course, Rizal’s face is forever imprinted on every peso coin he uses.
     """
 
-    RIZAL "Are you the new student here? We will start making bricks today, so prepare yourself and change your attire, too, young boy."
+    RIZAL """
+    Are you a new student here?
+    
+    We will start making bricks today, so prepare yourself and change your attire, too, young boy."""
     hide rizal
 
     show ren normal at center_sprite_named
@@ -79,7 +93,13 @@ label script_act2_ren:
     hide rizal
 
     show ren normal at center_sprite_named
-    REN "I didn't notice you were there. Also, whose classmates? Where are my classmates?" 
+    REN """
+    I didn't notice you were there.
+    
+    Also, whose classmates?
+    
+    Where are my classmates?
+    """ 
 
     "But before Ren can hear Rizal’s answers, a sudden flash of light envelops him, transporting him to an entirely different place."
 
