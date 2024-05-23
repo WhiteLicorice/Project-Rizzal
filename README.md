@@ -1,4 +1,4 @@
-#  Project Rizzal (Working Title)
+#  Project Rizzal
 
 A final creative presentation for Philippine Institutions 100, made in the RenPy Engine.
 
