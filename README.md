@@ -17,7 +17,7 @@ Rene Andre Jocsing
 
 Rizal By Painting from Lineage, Life and Labors of José Rizal, Philippine Patriot, by Austin Craig (1909). Information page at [Project Gutenberg](https://commons.wikimedia.org/w/index.php?curid=9392160), Public Domain.
 
-GUI base by [Skolaztika](https://skolaztika.itch.io/golden-disc-renpy-gui), modified by WhiteLicorice.
+GUI base by [Skolaztika](https://skolaztika.itch.io/golden-disc-renpy-gui), modified with permission by [WhiteLicorice](https://github.com/WhiteLicorice).
 
 Sprites by [Mad Scientist](https://x.com/mad_scientist92), [Najmah Salam](https://najmetender.itch.io/silhouette-sprites-city-people), [LinXueLian](https://itch.io/queue/c/4223894/folk-and-historical-costume-character-packs?game_id=2385066).
 
